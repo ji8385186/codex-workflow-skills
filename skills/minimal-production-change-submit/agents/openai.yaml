@@ -1,0 +1,7 @@
+interface:
+  display_name: "代码提交"
+  short_description: "梳理未提交变更，生成规范 commit 信息并直接推送远程"
+  default_prompt: "使用 $minimal-production-change-submit 梳理全部未提交代码，生成规范 commit 信息并直接提交到远程分支。"
+
+policy:
+  allow_implicit_invocation: true
