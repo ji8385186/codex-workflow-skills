@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug 修复防回归"
+  short_description: "摘要优先检索 Bug 并降低回归风险"
+  default_prompt: "使用 $bug-fix-guardrail 处理本次开发或 Bug 修复，先检索本地 Bug 摘要索引，再分析详细记录和 Git 未提交代码，完成最小修改、回归验证及记录追加或调整。"
